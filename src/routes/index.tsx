@@ -1,8 +1,7 @@
-import React, { useContext } from 'react';
 
 import SignRoutes from './SignRoutes';
 import OtherRoutes from './OtherRoutes';
-import AuthContext, { useAuth } from '../contexts/auth';
+import { useAuth } from '../contexts/auth';
 
 const Routes = () => {
     const { signed } = useAuth();
